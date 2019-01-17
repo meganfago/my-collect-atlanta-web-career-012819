@@ -2,12 +2,13 @@
  collection = ["ruby", "javascript", "python", "objective-c"]
 
  def my_collect(array)
-  new_arr = [] 
+  new_arr = []
    i=0 
    while i < array.length 
    new_arr.push 
    yield(array[i])
    i += 1 
+   new_arr <<
  end 
  new_arr
 end
