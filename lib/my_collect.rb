@@ -1,15 +1,12 @@
- student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
- collection = ["ruby", "javascript", "python", "objective-c"]
+# student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+# collection = ["ruby", "javascript", "python", "objective-c"]
 
-	
-Ila Leigh Baugham A DAY AGO
 def my_collect (array)
-
+ new_array = []
   i = 0
   while i < array.length
   new_array << yield(array[i])
     i = i+1
-
 
 end
   new_array
