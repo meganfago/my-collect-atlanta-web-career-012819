@@ -1,5 +1,5 @@
-# student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-# collection = ["ruby", "javascript", "python", "objective-c"]
+ student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+ collection = ["ruby", "javascript", "python", "objective-c"]
 
  def my_collect(array)
   new_arr = [] 
@@ -12,9 +12,9 @@
  array
 end
 
-my_collect(array) do |name|
+my_collect(student) do |name|
   name.split(" ").first
 end
-my_collect(array) do |lang|
+my_collect(collection) do |lang|
   lang.upcase
 end
