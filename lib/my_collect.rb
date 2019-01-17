@@ -1,16 +1,18 @@
  student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
  collection = ["ruby", "javascript", "python", "objective-c"]
 
- def my_collect(array)
-  new_arr = []
-   i=0 
-   while i < array.length 
-   new_arr.push 
-   yield(array[i])
-   i += 1 
-   new_arr <<
- end 
- new_arr
+	
+Ila Leigh Baugham A DAY AGO
+def my_collect (array)
+
+  i = 0
+  while i < array.length
+  new_array << yield(array[i])
+    i = i+1
+
+
+end
+  new_array
 end
 
 # my_collect(student) do |name|
